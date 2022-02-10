@@ -1,0 +1,13 @@
+html {
+    color: white;
+    text-transform: uppercase;
+}
+
+header {
+    background-color: blue;
+    height: 40px;
+}
+
+[class*=col-] {
+    border: 1px solid black;
+}
