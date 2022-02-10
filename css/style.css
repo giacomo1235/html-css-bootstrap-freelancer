@@ -14,6 +14,11 @@ section {
     color: white;
 }
 
+p{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
 [class*=col-] {
     border: 1px solid black;
     border-radius: .5;
@@ -32,4 +37,14 @@ section {
 
 .third {
     background-color: aquamarine;
+}
+
+.fourth {
+    color: black;
+    text-align: center;
+}
+
+footer {
+    background-color: blue;
+    text-align: center;
 }
