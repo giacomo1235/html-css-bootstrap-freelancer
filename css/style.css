@@ -1,13 +1,35 @@
-html {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: blue;
+    height: 60px;
     color: white;
     text-transform: uppercase;
 }
 
-header {
-    background-color: blue;
-    height: 40px;
+section {
+    color: white;
 }
 
 [class*=col-] {
     border: 1px solid black;
+    border-radius: .5;
+}
+
+.first {
+    height: 400px;
+    background-color: greenyellow;
+}
+
+.second .row .col {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+.third {
+    background-color: aquamarine;
 }
