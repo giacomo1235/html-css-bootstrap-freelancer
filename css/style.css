@@ -16,19 +16,15 @@
     /* position: relative; */
 }
  
-/* .cards .fa-plus {
+.cards .fa-plus {
     display: none;
 
-}  */
+} 
 
-.cards img:hover i {
-    display: block;
 
-}
 
 .cards img:hover {
-    .cards img:hover i {
+   
         display: block;
-    
-    }
+ 
 }
