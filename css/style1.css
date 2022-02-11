@@ -27,6 +27,11 @@
 
 } */
 
-.cards img:hover {
+.cards img:hover i {
+    display: block;
 
+}
+
+.cards img:hover {
+    opacity: .4;
 }
