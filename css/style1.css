@@ -13,4 +13,20 @@
 
 .jumbotron img {
     max-width: 300px;
+    /* position: relative; */
+}
+/* 
+.jumbotron .fa-plus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 9rem;
+    color: white;
+    display: none;
+
+} */
+
+.cards img:hover {
+
 }
