@@ -18,10 +18,12 @@
  
 .cards .fa-plus {
     display: none;
+    color: white;
+    font-size: 6rem;
 
 } 
 
-.cards .fa-plus:hover {
+.card:hover .fa-plus{
     display: block;
 } 
 
