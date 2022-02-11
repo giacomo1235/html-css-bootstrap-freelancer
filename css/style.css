@@ -17,7 +17,8 @@
 }
  
 .cards .fa-plus {
-    display: none;
+    opacity: 0;
+    transition: all .5s ease-out;
     color: white;
     font-size: 6rem;
 
@@ -28,7 +29,7 @@
 }
 
 .card:hover .fa-plus{
-    display: block;
+   opacity: 1;
 
 } 
 
@@ -45,7 +46,7 @@
     border-radius: 0;
 }
 
-.btn-outline-secondary {
+.jumbotron .btn-outline-secondary {
     color: white;
     border-color: white;
 }
@@ -53,4 +54,23 @@
 .btn-success {
     background-color: rgb(32%, 69%, 65%);
     border-color: rgb(32%, 69%, 65%);
+}
+
+footer {
+    background-color: rgb(25%, 33%, 42%);
+    color: white;
+}
+
+footer span {
+    color: rgb(33%, 68%, 59%);
+}
+
+.copyright {
+    background-color: rgb(21%, 27%, 35%);
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
 }
