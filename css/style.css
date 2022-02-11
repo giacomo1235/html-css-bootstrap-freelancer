@@ -21,10 +21,11 @@
 
 } 
 
+.cards .fa-plus:hover {
+    display: block;
+} 
 
 
-.cards img:hover {
-   
-        display: block;
- 
+.forms {
+    color: black;
 }
