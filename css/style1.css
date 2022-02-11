@@ -1,0 +1,16 @@
+.bg-blue {
+    background-color: rgb(21%, 27%, 35%);
+}
+
+.jumbotron {
+    background-color: rgb(32%, 69%, 65%);
+    color: white;
+}
+.py-6 {
+    padding-top:4rem;
+    padding-bottom: 4rem;
+}
+
+.jumbotron img {
+    max-width: 300px;
+}
