@@ -1,14 +1,20 @@
-*{
+:root {
+    --green-color: 26,
+}
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} */
+
+.py-6 {
+    padding-top:4rem;
+    padding-bottom: 4rem;
 }
 header {
     background-color: blue;
-    height: 60px;
+    /* height: 60px; */
     color: white;
-    text-transform: uppercase;
-
 }
 
 section {
@@ -31,20 +37,6 @@ p{
     height: 400px;
 }
 
-.hidden {
-    display: none;
-} 
-
-@media screen and (min-width: 768px){
-    .hidden {
-        display: block;
-    }
-
-    .visible {
-        display: none;
-    }
-    
-}
 
 ul {
     list-style: none;
