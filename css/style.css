@@ -26,10 +26,7 @@ p{
     text-align: center;
     text-transform: uppercase;
 }
-[class*=col-] {
-    /* border: 1px solid black; */
-    border-radius: .5;
-}
+
 
 .first,
 .third,
@@ -55,12 +52,12 @@ li {
     background-color: greenyellow;
 }
 
-.second .row .col {
+/* .cards .row .col {
     background-color: yellow;
     width: 100px;
     height: 100px;
 }
-
+ */
 .third {
     background-color: aquamarine;
     
@@ -88,4 +85,9 @@ footer {
 
 .copyright {
     background-color: darkblue;
+}
+
+.card {
+    height: 300px;
+    background-color: gold;
 }
