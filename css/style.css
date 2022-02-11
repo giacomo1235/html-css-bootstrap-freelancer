@@ -21,13 +21,36 @@
     color: white;
     font-size: 6rem;
 
-} 
+}
+
+.card:hover {
+    filter: hue-rotate(90deg)
+}
 
 .card:hover .fa-plus{
     display: block;
+
 } 
+
+
 
 
 .forms {
     color: black;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+}
+
+.btn-outline-secondary {
+    color: white;
+    border-color: white;
+}
+
+.btn-success {
+    background-color: rgb(32%, 69%, 65%);
+    border-color: rgb(32%, 69%, 65%);
 }
