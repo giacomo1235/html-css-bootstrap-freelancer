@@ -74,3 +74,19 @@ footer span {
     background-color: #6c757d;
     border-color: #6c757d;
 }
+
+footer i {
+    margin: 1em;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 1em;
+
+}
+
+footer i:hover {
+    
+}
+
+p {
+    margin: auto;
+}
