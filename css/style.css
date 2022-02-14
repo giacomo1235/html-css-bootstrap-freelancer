@@ -11,6 +11,33 @@
     padding-bottom: 4rem;
 }
 
+.star::before,
+.star::after {
+    content: '';
+    width: 10%;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.star-black::before,
+.star-black::after {
+    content: '';
+    width: 10%;
+    height: 3px;
+    background-color: black;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.star,
+.star-black {
+    font-size: 2rem;
+    
+}
+
+
 .jumbotron img {
     max-width: 300px;
     /* position: relative; */
