@@ -84,7 +84,7 @@ footer i {
 }
 
 footer i:hover {
-    
+    cursor: pointer;
 }
 
 p {
